@@ -1,0 +1,19 @@
+git log --oneline --graph --decorate
+git log --since="3 days"
+git add -A
+rm -rf <filename>               //to recursively force delete
+mv <filename> <filename> //to move or rename the file
+git log --follow -- level1
+git show 87599c3dc75bb9f824306892e676658259d0a606
+git ls-files		//shows files being tracked by git
+git log --all --graph --decorate --oneline
+git config --global alias.hist "log --all --graph --decorate --oneline"
+git config --global alias.comm "log --oneline"
+
+---- .gitignore file config ----
+
+to ignore specific file	: MyFile.ext
+to ignore file pattern	: *.ext
+to ignore a folder	: myfolder/
+
+----************************----
