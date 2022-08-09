@@ -43,3 +43,16 @@ git difftool HEAD HEAD^
 git difftool <commit id1> <commit id2>
 
 ----********--------
+
+---- Branching ----
+
+git branch -a			//shows all branches
+git branch <branch name>	//creates a new branch
+git checkout <branch name>	//switches to the mentioned branch
+git log --oneline --decorate
+git branch -m <branch name> <branch name>	//to move or rename the branch
+git branch -d <branch name>	//to delete a branch. Note: cannot the current branch, you need to checkout and then del
+git checkout -b <branch name>	//create a new branch and checkout directly
+
+
+
