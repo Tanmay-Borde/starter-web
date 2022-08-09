@@ -31,3 +31,15 @@ git config --global difftool.prompt fals
 ----********************----
 
 git config --global -e
+
+---- Comparison ----
+
+git diff
+git difftool HEAD
+git diff --staged HEAD
+git difftool --staged HEAD
+git diff HEAD HEAD^		//compares the last and 2nd last commit
+git difftool HEAD HEAD^
+git difftool <commit id1> <commit id2>
+
+----********--------
