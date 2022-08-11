@@ -76,3 +76,7 @@ git tag <tagname>		//creates a tag for the last commit
 git tag --list			//shows all the tags
 git show <tagname>		//shows changes made in the tagged commit 
 git tag --delete <tagname>	//deletes the particular tag
+git tag -a <tag name>		//annoted tag with description
+git commit --amend		//rename the committed msg
+git difftool <tag1> <tag2>	//trace the difference between two tags
+git tag -a <tag> <commitID>	//to tag existing commit
