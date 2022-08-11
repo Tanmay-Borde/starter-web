@@ -57,4 +57,4 @@ git checkout -b <branch name>	//create a new branch and checkout directly
 
 ---- Merge ----
 git merge <branch to be merged> --no-ff		//to merge without fast forward
-git 
+git fetch origin master		//fetches the lastest commits from remote repo shows divergence in commits if any
