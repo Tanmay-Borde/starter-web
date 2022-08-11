@@ -80,3 +80,10 @@ git tag -a <tag name>		//annoted tag with description
 git commit --amend		//rename the committed msg
 git difftool <tag1> <tag2>	//trace the difference between two tags
 git tag -a <tag> <commitID>	//to tag existing commit
+
+git push origin master --tags	//to push all tags and last commit to origin repo
+git push origin :<tagname>	//to delete the mentioned tag from origin repo and retain only on local
+
+---- history log ----
+git reflog			//log of actions performed
+git reset <commit id>		//reset to mentioned commit state
