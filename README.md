@@ -13,3 +13,4 @@ Sample website with plenty of files for demos
 fork the repo
 testing rebasing
 from myfeature branch
+Stash changes
