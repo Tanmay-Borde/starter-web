@@ -58,3 +58,6 @@ git checkout -b <branch name>	//create a new branch and checkout directly
 ---- Merge ----
 git merge <branch to be merged> --no-ff		//to merge without fast forward
 git fetch origin master		//fetches the lastest commits from remote repo shows divergence in commits if any
+git pull --rebase origin master	//pull the origin/remote repo commits and merge into local repo before your local commits
+git stash		//creates a stash for your work and cleans the local repo
+git stash apply		//brings back your stashed work to continue
