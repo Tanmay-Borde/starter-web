@@ -14,3 +14,4 @@ Tanmay Borde
 
     HTML5, CSS3
     jQuery, Modernizr
+    git ending
