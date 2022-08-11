@@ -70,3 +70,9 @@ git stash drop stash@{}		//drops the particular stash
 git stash apply stash@{}	//applies the particular stash
 git stash save <stash name>	//saves multiple stashes
 git stash branch <name>		//stash in new branch and drop the stash
+
+----tagging----
+git tag <tagname>		//creates a tag for the last commit
+git tag --list			//shows all the tags
+git show <tagname>		//shows changes made in the tagged commit 
+git tag --delete <tagname>	//deletes the particular tag
