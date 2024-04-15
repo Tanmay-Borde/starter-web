@@ -87,3 +87,7 @@ git push origin :<tagname>	//to delete the mentioned tag from origin repo and re
 ---- history log ----
 git reflog			//log of actions performed
 git reset <commit id>		//reset to mentioned commit state
+
+---- Git clone ssh issue ----
+git -c http.sslVerify=false clone <repository-name>
+
