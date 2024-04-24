@@ -91,3 +91,6 @@ git reset <commit id>		//reset to mentioned commit state
 ---- Git clone ssh issue ----
 git -c http.sslVerify=false clone <repository-name>
 
+---- Git ssl issue ----
+git config http.sslVerify false
+
